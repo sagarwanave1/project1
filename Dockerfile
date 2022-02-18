@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER sagarwanave
-RUN apt install -y httpd \
-zip\
+RUN apt install -y httpd
+RUN zip\
 unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
 WORKDIR /var/www/html/
