@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTANER sagarwanave
+MAINTAINER sagarwanave
 RUN yum install -y httpd \
 zip\
 unzip
