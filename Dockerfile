@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:6.9
 MAINTAINER sagarwanave
 RUN yum install -y httpd \
 zip\
